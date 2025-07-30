@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "nombre": "Mercat Central de València",
+    "imagen": "/mCentral.jpeg",
+    "arquitectura": "Edificio modernista de más de 8 000 m², con estructura de hierro, cerámica colorida y vidrios. La gran cúpula central de 30 m de altura proporciona una gran luminosidad al espacio. El interior está compuesto por bóvedas metálicas, vidrieras y cerámica decorativa valenciana.",
+    "fecha": "Orígenes en el mercado al aire libre de 1839. El edificio actual comenzó a construirse en 1914 y se inauguró en marzo de 1928.",
+    "info": "Cuenta con más de 1 000 puestos que ofrecen frutas, verduras, carnes, pescados, embutidos, especias y productos gourmet. Es uno de los mercados cubiertos más grandes de Europa y un referente del modernismo valenciano. Pionero en la digitalización de ventas y reparto a domicilio en España desde el año 2000. Situado junto a la Lonja de la Seda, combina tradición comercial y atractivo turístico.",
+    "direccion": "Plaza Ciudad de Brujas (Plaza del Mercado), barrio Ciutat Vella, València",
+    "visited": false
+  },
+  {
+    "id": 2,
+    "nombre": "Mercat de Russafa",
+    "imagen": "/mRussafa.jpeg",
+    "arquitectura": "Edificio rectangular moderno de hormigón armado con cada fachada en un color distinto, formando un degradado cromático. Tiene amplias ventanas verticales y marquesinas perimetrales. Su aspecto vibrante y colorido lo hace muy reconocible.",
+    "fecha": "Proyecto iniciado en 1954. Construido en 1957 e inaugurado en junio de 1962 por los arquitectos Júlio Bellot Senet y Javier Goerlich Lleó.",
+    "info": "Con unos 4.780 m² y aproximadamente 160 puestos, es el segundo mayor mercado de la Comunidad Valenciana. Ofrece alimentos frescos, pescados, frutas, charcutería y zonas de gastronomía interna. En 2019 se reformó la nave de pescadería con una inversión de 435.000 €, mejorando expositores, desagües y cámaras frigoríficas. Es un punto clave del barrio, muy valorado por su oferta y su presencia arquitectónica.",
+    "direccion": "Plaza Barón de Cortes de Pallás, s/n, barrio Ruzafa, Valencia",
+    "visited": false
+  },
+  {
+    "id": 3,
+    "nombre": "Mercat de Rojas Clemente",
+    "imagen": "/mRojas.jpg",
+    "arquitectura": "Edificio sencillo con cubierta de bóvedas de cañón y fachada sobria de paneles y ladrillo. En 2017 se decoró mediante arte urbano participativo, otorgándole mayor visibilidad visual y comunitaria.",
+    "fecha": "Construido e inaugurado en 1963. Arquitectos Gelabert y Ribas, promovido por Eusebio Santos Martínez. Coste estimado: 30 millones de pesetas.",
+    "info": "Diseñado para más de 200 vendedores. Situado cerca de las Torres de Quart y del IVAM. Alberga puestos de alimentos frescos y restauración informal. Fue redecorado con murales en 2017 y sujeto a nuevos planes de mejora en 2019. Es una referencia del comercio de barrio en el distrito de Extramurs.",
+    "direccion": "Plaza de Rojas Clemente, s/n, barrio El Botánico, Valencia",
+    "visited": false
+  },
+  {
+    "id": 4,
+    "nombre": "Mercat del Cabanyal",
+    "imagen": "/mCabanyal.jpg",
+    "arquitectura": "Fachada funcional con marquesina pronunciada y pilares metálicos o de ladrillo. Interior con pasillos amplios y puestos de fruta, pescado y otros alimentos. Estética sencilla, propia de los mercados tradicionales de barrio.",
+    "fecha": "Inaugurado a principios de la década de 1960. En funcionamiento desde hace más de 60 años.",
+    "info": "Ubicado en el barrio marítimo de El Cabanyal. Segunda mayor facturación tras el Mercado Central. En 2021 recibió 1,2 millones € para modernización de fachada, cubierta, consigna frigorífica, sala multifuncional e iluminación. En 2023 se reabrió tras reformas urgentes realizadas en tiempo récord.",
+    "direccion": "Calle Justo Vilar, s/n, E-46011 Valencia, barrio del Cabanyal",
+    "visited": false
+  },
+  {
+    "id": 5,
+    "nombre": "Mercat de Algirós",
+    "imagen": "/mAlgiros.jpg",
+    "arquitectura": "Fachada de dos niveles decorada con bandas verticales de colores (rojo, verde, amarillo), cubierta plana y accesos desde una plaza. Interior bien iluminado con pasillos amplios y organización clara de los puestos.",
+    "fecha": "Edificio de mediados o finales del siglo XX. No se dispone de fecha pública exacta.",
+    "info": "Ofrece carnicería, pescadería, frutería, panadería, herbolario, droguería y otros servicios. Adaptado para acceso con silla de ruedas. Buen horario y comunicación con transporte público, cercano a Mestalla. Punto habitual de compras de proximidad en el distrito de Algirós.",
+    "direccion": "Plaça de Sant Felip Neri, 46021 Valencia, distrito Algirós",
+    "visited": false
+  },
+  {
+    "id": 6,
+    "nombre": "Mercat de Mossén Sorell",
+    "imagen": "/mSorell.JPG",
+    "arquitectura": "Estructura metálica clásica, estilo racionalista, con cubiertas inclinadas de cristal y pórticos octogonales que permiten gran entrada de luz natural. El interior es abierto y versátil, preparado tanto para venta como actividades culturales.",
+    "fecha": "Construido sobre restos anteriores en los años 1930. Rehabilitado en 1987 y de nuevo en 2008 para actualización de servicios y fachada.",
+    "info": "Mercado pequeño en el centro del barrio del Carmen. Dispone de puestos de productos frescos y tapas gourmet. También funciona como espacio cultural, sala de exposiciones y punto de encuentro vecinal. La rehabilitación de 2008 mejoró estética, seguridad y funcionalidad.",
+    "direccion": "Plaza Mossén Sorell, s/n, 46003 Valencia, barrio El Carmen",
+    "visited": false
+  },
+  {
+    "id": 7,
+    "nombre": "Mercat de Colom",
+    "imagen": "/mColon.jpg",
+    "arquitectura": "Edificio modernista valenciano (Art Nouveau), con fachadas de ladrillo decorado, arcos principales con mosaicos cerámicos y estructura interior metálica. Presenta columnas de hierro, bóvedas altas y paredes laterales de cristal móviles que permiten una atmósfera luminosa y liviana.",
+    "fecha": "Construido entre 1914 y 1916, diseñado por el arquitecto Francisco Mora Berenguer.",
+    "info": "Originalmente concebido como mercado público para abastecer al nuevo Ensanche valenciano. Reconocido como una obra maestra del modernismo valenciano y declarado Bien de Interés Cultural. Tras su restauración en 2003, se transformó en centro gastronómico y cultural con cafés, restaurantes, tiendas gourmet y eventos como conciertos o mercado navideño. Es un punto emblemático para desayunos y tapas, con ambiente elegante y social, muy apreciado por locales y visitantes.",
+    "direccion": "Calle Jorge Juan, 19, barrio Ensanche, Valencia capital — junto a calle Colón y cerca de la estación de metro Colón.",
+    "visited": false
+  },
+
+  {
+    "id": 8,
+    "nombre": "Mercat de Benimàmet",
+    "imagen": "/mBenimamet.jpg",
+    "arquitectura": "Fachada sencilla, moderna y funcional de barrio, revestida con ladrillo y ventanas amplias. Acceso directo desde la calle Alborache, con pocos puestos distribuidos en pasillos breves. Estética práctica y cotidiana sin ornamentación histórica.",
+    "fecha": "No se ha publicado una fecha concreta de inauguración.",
+    "info": "Mercado muy reducido con aproximadamente cinco paradas, de las cuales solo dos suelen estar operativas. El Ayuntamiento ha promovido exenciones temporales de tasas (agua, luz, limpieza) para incentivar su ocupación. Se contempla dinamizar el entorno con mercados agrícolas (Tira de Contar). Forma parte del plan municipal de rehabilitación de mercados con una inversión superior a 11 millones de euros.",
+    "direccion": "Calle Alborache, s/n, Benimàmet, 46015 Valencia",
+    "visited": false
+  },
+  {
+    "id": 9,
+    "nombre": "Mercat del Grau",
+    "imagen": "/mGrau.jpeg",
+    "arquitectura": "Estructura sencilla de mercado de barrio, con cubierta metálica y frontón básico. El interior cuenta con pocas paradas alineadas y acceso directo desde Plaza del Mercado Nuevo. Ha sido objeto de reformas en cubierta, iluminación y climatización.",
+    "fecha": "Se considera el mercado permanente más antiguo de la ciudad. Recientemente reformado para evitar su cierre.",
+    "info": "Funcionaba con apenas tres puestos activos. Las obras recientes han buscado su revitalización mediante mejoras estructurales, eficiencia energética y confort. Destinado a reforzar el comercio de proximidad en el distrito marítimo del Grao, con identidad cultural local y productos frescos.",
+    "direccion": "Plaza del Mercado Nuevo, s/n, barrio del Grao, 46011 Valencia",
+    "visited": false
+  },
+  {
+    "id": 10,
+    "nombre": "Mercat de Castilla",
+    "imagen": "/mCastilla.jpg",
+    "arquitectura": "Edificio de grandes dimensiones con fachada de ladrillo caravista y cubierta inclinada metálica. Diseño exterior funcional sin ornamentaciones. Accesos amplios desde calle Llombay y avenida del Cid. Interior sobrio con líneas rectas y estructura práctica orientada a la venta de género fresco.",
+    "fecha": "Inaugurado aproximadamente a mediados de los años 1980; remodelado integralmente hacia el año 2000.",
+    "info": "Ocupa unos 5.000 m² con aproximadamente 29 puestos y 14 almacenes. En 2018, el 95 % de las plazas se subastaron con éxito. Funciona como mercado de barrio con carnicerías, frutería, panadería, pescadería y bar de almuerzos típico. Forma parte del plan municipal de modernización 2024–2026, que incluye mejoras en accesibilidad, pintura, eliminación de grafitis, creación de sala de lactancia y reformas estructurales.",
+    "direccion": "Calle Llombay, 4 (antigua Avenida de Castilla / avenida del Cid), distrito Olivereta, Valencia",
+    "visited": false
+  },
+  {
+    "id": 11,
+    "nombre": "Mercat de Torrefiel",
+    "imagen": "/mTorrefiel.jpg",
+    "arquitectura": "Fachada funcional con estructura sencilla, parcialmente revestida de vidrio y metal. Presenta grandes ventanales y puertas de persiana. El interior es compacto, con puestos alineados y arquitectura municipal básica sin ornamentación.",
+    "fecha": "Construido entre las décadas de 1970 y 1980. Reformado recientemente para modernizar instalaciones.",
+    "info": "Opera con un número reducido de puestos de alimentos frescos. En 2024–2025 se realizaron mejoras como instalación de consigna frigorífica (en colaboración con Ruzafa), pintura de persianas y preparación de sala de lactancia. Se prevén nuevos proyectos energéticos entre 2025 y 2026 para renovar lucernarios, climatización y ventanas, con una inversión de 552 000 €. Su renovación pretende reforzar su papel como mercado activo y centro de convivencia barrial.",
+    "direccion": "Plaza Santo Domingo Savio, 77, barrio Torrefiel, Valencia",
+    "visited": false
+  }
+]

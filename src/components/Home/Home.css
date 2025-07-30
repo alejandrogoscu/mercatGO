@@ -1,0 +1,42 @@
+.home__container {
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__img {
+  width: 300px;
+}
+
+.home__info {
+  padding: 25px;
+  text-align: center;
+  color: var(--negro);
+}
+
+.info__strong {
+  font-weight: 400;
+  color: var(--azul);
+}
+
+.home__btn.ant-btn {
+  /* Estilos por defecto */
+  background-color: #1677ff;
+  color: white !important;
+  font-family: var(--font); 
+  font-size: 1.4em;
+  padding: 8px 24px; 
+  height: auto; /
+}
+
+.home__btn.ant-btn:hover,
+.home__btn.ant-btn:focus {
+  background-color: white; 
+  border-color: #1677ff; 
+  color: #1677ff; 
+  opacity: 1; 
+}

@@ -1,0 +1,37 @@
+@import './assets/fonts/fonts.css';
+
+
+:root  {
+  /* TYPOGRAPHY */
+  --font: 'Montserrat';
+  --italic: 'Montserrat-Italic'
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* COLORES */
+  --azul: #1677ff;
+  --negro: #242424;
+
+  
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+  font-family: var(--font);
+}
+  
+a {
+  text-decoration: none;
+  color: inherit;
+}

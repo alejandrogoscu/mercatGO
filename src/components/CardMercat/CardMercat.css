@@ -1,0 +1,30 @@
+.ant-card-meta-title {
+  color: var(--azul) !important;
+  font-size: 1.2em !important;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--azul);
+  text-align: center;
+}
+
+.ant-card-meta-description p {
+  color: #000000 !important;
+  font-weight: 300;
+  text-align: center;
+}
+
+.card__btns {
+  display: flex;
+  margin-top: 18px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ant-btn:not(.ant-btn-primary) {
+  border-color: var(--azul, #1677ff) !important;
+  color: var(--azul) !important;
+}
+
+.ant-btn-primary {
+  color: white !important;
+}

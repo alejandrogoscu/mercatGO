@@ -1,0 +1,42 @@
+.detail__container {
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail__card .ant-card-meta-title {
+  font-size: 1.6em !important;
+}
+
+.detail__info {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.detail__strong {
+  font-weight: 600 !important;
+}
+
+.detail__card .ant-btn:not(.ant-btn-primary) {
+  border-color: var(--azul, #1677ff) !important;
+  color: var(--azul) !important;
+}
+
+.detail__card .ant-btn-primary {
+  color: white !important;
+}
+
+.ant-card-actions {
+  border-top: 1px solid #1677ff !important;
+}
+
+.ant-card-actions > li:not(:last-child) {
+  border-inline-end: 1px solid #1677ff !important;
+}
