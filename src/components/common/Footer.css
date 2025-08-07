@@ -1,0 +1,28 @@
+.footer__container {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  /* position: fixed;
+  top: 0;
+  z-index: 1; */
+  background-color: var(--azul);
+}
+
+.footer__text {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8em;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}

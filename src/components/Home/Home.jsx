@@ -11,7 +11,6 @@ export const Home = () => {
 
   return (
     <>
-      <Header />
       <div className="home__container">
         <img className="home__img" alt="Gente comprando en puestos de mercado de Valencia" src={imgHome} />
         <div className="home__info">
