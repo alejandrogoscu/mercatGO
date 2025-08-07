@@ -24,8 +24,7 @@
 }
 
 .home__btn.ant-btn {
-  /* Estilos por defecto */
-  background-color: #1677ff;
+  background-color: var(--azul);
   color: white !important;
   font-family: var(--font); 
   font-size: 1.4em;
@@ -36,7 +35,13 @@
 .home__btn.ant-btn:hover,
 .home__btn.ant-btn:focus {
   background-color: white; 
-  border-color: #1677ff; 
-  color: #1677ff; 
+  border-color: var(--azul); 
+  color: var(--azul) !important; 
   opacity: 1; 
+}
+
+@media (width > 700px) {
+  .home__container {
+    max-width: 700px;
+  }
 }

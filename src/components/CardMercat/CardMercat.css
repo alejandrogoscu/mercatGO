@@ -1,3 +1,14 @@
+.card__container .ant-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ant-card-cover img {
+  height: 200px;
+  object-fit: cover;
+}
+
 .ant-card-meta-title {
   color: var(--azul) !important;
   font-size: 1.2em !important;
@@ -9,6 +20,7 @@
 
 .ant-card-meta-description p {
   color: #000000 !important;
+  height: 100px;
   font-weight: 300;
   text-align: center;
 }
@@ -21,8 +33,16 @@
 }
 
 .ant-btn:not(.ant-btn-primary) {
-  border-color: var(--azul, #1677ff) !important;
+  border-color: var(--azul) !important;
   color: var(--azul) !important;
+}
+
+.ant-btn:hover,
+.ant-btn-primary:hover {
+  background-color: var(--azul) !important;
+  border-color: var(--azul) !important;
+  color: white !important;
+  opacity: 1;
 }
 
 .ant-btn-primary {

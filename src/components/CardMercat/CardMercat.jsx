@@ -12,6 +12,7 @@ const CardMercat = ({ mercat, onToggleVisited }) => {
 
   return (
     <Card
+      className="card__container"
       style={{
         width: 300,
         boxShadow: '0 4px 12px 0 rgba(36, 36, 36, 0.5)',

@@ -9,6 +9,13 @@
   gap: 2rem;
 }
 
+.list__cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 80%;
+}
+
 .ant-select-selector {
   border-color: var(--azul) !important;
   font-family: var(--font) !important;

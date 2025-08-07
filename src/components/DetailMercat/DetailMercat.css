@@ -8,16 +8,26 @@
   align-items: center;
 }
 
+.detail__card {
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px 0 rgba(36, 36, 36, 0.5);
+}
+
+/* Otros estilos para la tarjeta... */
 .detail__card .ant-card-meta-title {
   font-size: 1.6em !important;
 }
 
 .detail__info {
   margin-bottom: 40px;
-
   &:last-child {
     margin-bottom: 10px;
   }
+}
+
+.detail__card .ant-card-meta-description p {
+  height: auto;
 }
 
 .detail__strong {
@@ -31,6 +41,14 @@
 
 .detail__card .ant-btn-primary {
   color: white !important;
+}
+
+.detail__card .ant-btn:hover,
+.detail__card .ant-btn-primary:hover {
+  background-color: var(--azul) !important;
+  border-color: var(--azul) !important;
+  color: white !important;
+  opacity: 1;
 }
 
 .ant-card-actions {

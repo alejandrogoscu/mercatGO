@@ -45,10 +45,11 @@ const ListMercats = () => {
           ]}
         />
       </Space>
-
-      {filteredMercats.map((mercat) => (
-        <CardMercat key={mercat.id} mercat={mercat} onToggleVisited={handleToggleVisited} />
-      ))}
+      <div className="list__cards-container">
+        {filteredMercats.map((mercat) => (
+          <CardMercat key={mercat.id} mercat={mercat} onToggleVisited={handleToggleVisited} />
+        ))}
+      </div>
     </div>
   );
 };

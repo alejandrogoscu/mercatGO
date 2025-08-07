@@ -26,11 +26,11 @@ const DetailMercat = () => {
     <div className="detail__container">
       <Card
         className="detail__card"
-        style={{
+        /* style={{
           width: 340,
           boxShadow: '0 4px 12px 0 rgba(36, 36, 36, 0.5)',
           maxWidth: '800px',
-        }}
+        }} */
         cover={
           <img
             alt={mercat.nombre}
