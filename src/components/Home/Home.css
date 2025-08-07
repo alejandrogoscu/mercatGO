@@ -34,7 +34,7 @@
 
 .home__btn.ant-btn:hover,
 .home__btn.ant-btn:focus {
-  background-color: white; 
+  background-color: white !important; 
   border-color: var(--azul); 
   color: var(--azul) !important; 
   opacity: 1; 
