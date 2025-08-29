@@ -32,6 +32,13 @@
   gap: 10px;
 }
 
+.card__btns .ant-btn {
+  font-size: 17px;
+  padding: 4px 20px;
+  height: auto;
+  line-height: 1.5;
+}
+
 .ant-btn:not(.ant-btn-primary) {
   border-color: var(--azul) !important;
   color: var(--azul) !important;
