@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleVisited } from '../../features/mercatsSlice';
 import { Select, Space } from 'antd';
-import { useState, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import CardMercat from '../CardMercat/CardMercat';
 import './ListMercats.css';
 
@@ -10,6 +10,16 @@ const ListMercats = () => {
   const dispatch = useDispatch();
 
   const [filter, setFilter] = useState('all');
+
+  useEffect(() => {
+    const savedPosition = sessionStorage.getItem('scrollPosition');
+    if (savedPosition) {
+      setTimeout(() => {
+        window.scrollTo(0, parseInt(savedPosition, 10));
+        sessionStorage.removeItem('scrollPosition');
+      }, 100);
+    }
+  });
 
   const handleToggleVisited = (id) => {
     dispatch(toggleVisited(id));

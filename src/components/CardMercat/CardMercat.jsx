@@ -6,7 +6,7 @@ import './CardMercat.css';
 const CardMercat = ({ mercat, onToggleVisited }) => {
   const navigate = useNavigate();
   const handleDetailsClick = () => {
-    window.scrollTo(0, 0);
+    sessionStorage.setItem('scrollPosition', window.scrollY);
     navigate(`/details/${mercat.id}`);
   };
 
