@@ -19,7 +19,7 @@ const ListMercats = () => {
         sessionStorage.removeItem('scrollPosition');
       }, 100);
     }
-  });
+  }, []);
 
   const handleToggleVisited = (id) => {
     dispatch(toggleVisited(id));

@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleVisited } from '../../features/mercatsSlice';
 import { Card, Button } from 'antd';
+import { useEffect } from 'react';
 import './DetailMercat.css';
 
 const DetailMercat = () => {
@@ -12,6 +13,10 @@ const DetailMercat = () => {
   const numId = parseInt(id, 10);
 
   const mercat = useSelector((state) => state.mercats.mercats.find((m) => m.id === numId));
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleToggleVisited = () => {
     dispatch(toggleVisited(numId));
@@ -26,11 +31,6 @@ const DetailMercat = () => {
     <div className="detail__container">
       <Card
         className="detail__card"
-        /* style={{
-          width: 340,
-          boxShadow: '0 4px 12px 0 rgba(36, 36, 36, 0.5)',
-          maxWidth: '800px',
-        }} */
         cover={
           <img
             alt={mercat.nombre}
