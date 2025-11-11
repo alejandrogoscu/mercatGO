@@ -109,5 +109,25 @@
     "info": "Opera con un número reducido de puestos de alimentos frescos. En 2024–2025 se realizaron mejoras como instalación de consigna frigorífica (en colaboración con Ruzafa), pintura de persianas y preparación de sala de lactancia. Se prevén nuevos proyectos energéticos entre 2025 y 2026 para renovar lucernarios, climatización y ventanas, con una inversión de 552 000 €. Su renovación pretende reforzar su papel como mercado activo y centro de convivencia barrial.",
     "direccion": "Plaza Santo Domingo Savio, 77, barrio Torrefiel, Valencia",
     "visited": false
+  },
+  {
+    "id": 12,
+    "nombre": "Mercado de Benicalap",
+    "imagen": "/mBenicalap.jpeg",
+    "arquitectura": "Edificio de estilo funcional, con fachada moderna de ladrillo visto, planta baja con acceso acristalado / porche, pasillos amplios en interior. Diseño adaptado al barrio.",
+    "fecha": "Inaugurado en 1986. En 2018 se realizaron obras de reparación en fachada y paradas.",
+    "info": "Mercado de barrio que reúne puestos de alimentación frescos. Abierto de lunes a sábado por la mañana y viernes también en horario de tarde (17-20 h). Dirección oficial en Miguel Servet, 28. Ha sido objeto de rehabilitación parcial recientemente.",
+    "direccion": "Calle Miguel Servet, 28, 46015 Valencia",
+    "visited": false
+  },
+  {
+    "id": 13,
+    "nombre": "Mercado de Jerusalén",
+    "imagen": "/mJerusalem.jpg",
+    "arquitectura": "Edificio municipal de uso tradicional; fachadas sencillas, funcionalidad típica de mercados de barrio sin ornamentación destacada.",
+    "fecha": "Fue inaugurado en mayo de 1998 tras acondicionar locales en la Calle Matemático Marzale",
+    "info": "Mercado municipal localizado en c/ Matemático Marzal, 6, que funciona como mercado de proximidad para el barrio (oferta de puestos alimentarios y de servicio). Además, en las calles circundantes se celebra un mercadillo ambulante semanal (martes y jueves) que es una actividad distinta al edificio municipal.",
+    "direccion": "Calle Matemático Marzal, 6, Valencia",
+    "visited": false
   }
 ]
